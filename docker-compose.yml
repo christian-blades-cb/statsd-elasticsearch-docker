@@ -1,0 +1,12 @@
+statsd:
+  build: .
+  links: 
+    - elasticsearch:es
+  ports:
+    - 8125:8125
+    - 8126:8126
+elasticsearch:
+  image: elasticsearch
+  ports:
+    - 9200:9200
+    - 9300:9300

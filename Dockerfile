@@ -44,4 +44,4 @@ ADD ./config.js /app/
 
 CMD $(npm bin)/statsd /app/config.js
 
-EXPOSE 8125 8126
+EXPOSE 8125/udp 8126

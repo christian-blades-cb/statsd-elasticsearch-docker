@@ -112,7 +112,8 @@ Optional Variables:
             indexTimestamp: "day",     //for index statsd-2015.01.01
             countType:     "counter",
             timerType:     "timer",
-            timerDataType: "timer_data"     
+	    gaugeDataType: "gauge",
+            timerDataType: "timer_data",
         }   
     };
 })();
